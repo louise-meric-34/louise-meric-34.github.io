@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thèse · Louise Méric</title>
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+
+  <canvas id="topo-canvas"></canvas>
+
+  <div class="container">
+
+    <header class="header">
+      <div class="tag">Analyse Topologique des Données</div>
+      <h1 class="title">Thèse de Louise Méric</h1>
+      <p class="subtitle">
+        Doctorat en <em>Topological Data Analysis</em><br>
+        1 juin 2026 — 1 juin 2029
+      </p>
+    </header>
+
+    <section class="countdown" aria-label="Décompte">
+      <div class="unit">
+        <div class="unit__value" id="days">—</div>
+        <div class="unit__label">Jours</div>
+      </div>
+      <div class="unit">
+        <div class="unit__value" id="hours">—</div>
+        <div class="unit__label">Heures</div>
+      </div>
+      <div class="unit">
+        <div class="unit__value" id="minutes">—</div>
+        <div class="unit__label">Minutes</div>
+      </div>
+      <div class="unit">
+        <div class="unit__value" id="seconds">—</div>
+        <div class="unit__label">Secondes</div>
+      </div>
+    </section>
+
+    <div class="progress-card">
+      <div class="progress-card__header">
+        <span class="progress-card__label">Progression</span>
+        <span class="progress-card__pct" id="progress-pct">0%</span>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-bar__fill" id="progress-fill" style="width: 0%"></div>
+      </div>
+      <div class="progress-card__dates">
+        <div class="date-item">
+          <span class="date-item__value">1 juin 2026</span>
+          <span class="date-item__role">Début</span>
+        </div>
+        <div class="date-item">
+          <span class="date-item__value" id="today-date">—</span>
+          <span class="date-item__role">Aujourd'hui</span>
+        </div>
+        <div class="date-item">
+          <span class="date-item__value">1 juin 2029</span>
+          <span class="date-item__role">Fin</span>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      Persistance homologique · complexes simpliciaux · nuages de points
+    </footer>
+
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/TopoCanvas.js"></script>
+  <script src="js/Countdown.js"></script>
+  <script src="js/ProgressBar.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
