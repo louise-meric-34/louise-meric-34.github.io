@@ -4,7 +4,7 @@
 const CONFIG = Object.freeze({
   thesis: {
     name:  'Louise Méric',
-    field: 'Topological Data Analysis',
+    field: 'Analyse Topologique des Données',
     start: new Date('2026-06-01T00:00:00'),
     end:   new Date('2029-06-01T00:00:00'),
   },
